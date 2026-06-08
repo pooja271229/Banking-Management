@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>loan_status</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 21:03:06</sys_created_on>
+        <sys_id>a5b48a460f8d439007652fc530d1b2d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>loan_status</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a5b48a460f8d439007652fc530d1b2d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 21:03:06</sys_updated_on>
+        <table>x_1902003_skillb_0_fifth_third_bank_loan</table>
+        <ui_policy display_value="Loan Status Read Only">1374c6060f8d439007652fc530d1b26c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a5b48a460f8d439007652fc530d1b2d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</application>
+        <file_path/>
+        <instance_id>bbd3a8b63bdc0b10986d048aa4e45af2</instance_id>
+        <instance_name>dev386461</instance_name>
+        <name>sys_ui_policy_action_a5b48a460f8d439007652fc530d1b2d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>loan_status</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-25 21:03:06</sys_created_on><sys_id>a5b48a460f8d439007652fc530d1b2d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>loan_status</sys_name><sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package><sys_policy/><sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope><sys_update_name>sys_ui_policy_action_a5b48a460f8d439007652fc530d1b2d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 21:03:06</sys_updated_on><table>x_1902003_skillb_0_fifth_third_bank_loan</table><ui_policy display_value="Loan Status Read Only">1374c6060f8d439007652fc530d1b26c</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a5b48a460f8d439007652fc530d1b2d9"/></record_update>]]></payload>
+        <payload_hash>-1737398733</payload_hash>
+        <record_name>loan_status</record_name>
+        <reverted_from/>
+        <source>9a2819f80f454b5007652fc530d1b2ef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 21:03:06</sys_created_on>
+        <sys_id>6ac446460f8d439007652fc530d1b299</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e60f2d2400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 21:03:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>2ac44646d88d4390b1584f1f416ae798</update_guid>
+        <update_guid_history>2ac44646d88d4390b1584f1f416ae798:-1737398733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 19:21:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1d51b24d6db340408c37f46c97a3e400</sys_id>
+        <sys_metadata>a5b48a460f8d439007652fc530d1b2d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>loan_status</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_scope_delete display_value="">dc4d112fe82641ebae754a82b459f231</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a5b48a460f8d439007652fc530d1b2d9</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a5b48a460f8d439007652fc530d1b2d9">6ac446460f8d439007652fc530d1b299</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 19:21:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

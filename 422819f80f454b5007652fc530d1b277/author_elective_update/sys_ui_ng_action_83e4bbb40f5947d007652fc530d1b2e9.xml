@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_ng_action">
+    <sys_ui_ng_action action="DELETE">
+        <action_name>Go to task</action_name>
+        <active>true</active>
+        <color/>
+        <comments/>
+        <condition/>
+        <form_button>true</form_button>
+        <form_more_item>false</form_more_item>
+        <hide_when_disabled>false</hide_when_disabled>
+        <hint/>
+        <list_button>false</list_button>
+        <name>FTL Task</name>
+        <navigate_back>false</navigate_back>
+        <order>100</order>
+        <script><![CDATA[action.setRedirectURL(
+    'x_1902003_skillb_0_ftl_loan_task_list.do'
+);]]></script>
+        <show_for>any</show_for>
+        <sys_class_name>sys_ui_ng_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 18:18:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83e4bbb40f5947d007652fc530d1b2e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FTL Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_update_name>sys_ui_ng_action_83e4bbb40f5947d007652fc530d1b2e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 18:18:56</sys_updated_on>
+        <table>x_1902003_skillb_0_fifth_third_bank_loan</table>
+    </sys_ui_ng_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</application>
+        <file_path/>
+        <instance_id>bbd3a8b63bdc0b10986d048aa4e45af2</instance_id>
+        <instance_name>dev386461</instance_name>
+        <name>sys_ui_ng_action_83e4bbb40f5947d007652fc530d1b2e9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_ng_action"&gt;&lt;sys_ui_ng_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;Go to task&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;color/&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_more_item&gt;false&lt;/form_more_item&gt;&lt;hide_when_disabled&gt;false&lt;/hide_when_disabled&gt;&lt;hint/&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;name&gt;FTL Task&lt;/name&gt;&lt;navigate_back&gt;false&lt;/navigate_back&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[action.setRedirectURL(
+    'x_1902003_skillb_0_ftl_loan_task_list.do'
+);]]&gt;&lt;/script&gt;&lt;show_for&gt;any&lt;/show_for&gt;&lt;sys_class_name&gt;sys_ui_ng_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-03 18:18:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;83e4bbb40f5947d007652fc530d1b2e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;FTL Task&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0"&gt;422819f80f454b5007652fc530d1b277&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SkillBridge Bank "&gt;422819f80f454b5007652fc530d1b277&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_ng_action_83e4bbb40f5947d007652fc530d1b2e9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-03 18:18:56&lt;/sys_updated_on&gt;&lt;table&gt;x_1902003_skillb_0_fifth_third_bank_loan&lt;/table&gt;&lt;/sys_ui_ng_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-148873378</payload_hash>
+        <record_name>FTL Task</record_name>
+        <reverted_from/>
+        <source>9a2819f80f454b5007652fc530d1b2ef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 18:18:57</sys_created_on>
+        <sys_id>35857bf40f5947d007652fc530d1b21e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e8eb5c4900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 18:18:57</sys_updated_on>
+        <type>UI Action - Mobile</type>
+        <update_guid>f1857bf4375947d01ecca97b7ee6591d</update_guid>
+        <update_guid_history>f1857bf4375947d01ecca97b7ee6591d:-148873378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 18:24:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_ng_action">sys_ui_ng_action</sys_db_object>
+        <sys_id>0cb9d688b24747fa8da65fc8fabe9904</sys_id>
+        <sys_metadata>83e4bbb40f5947d007652fc530d1b2e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FTL Task</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_scope_delete display_value="">dc4d112fe82641ebae754a82b459f231</sys_scope_delete>
+        <sys_update_name>sys_ui_ng_action_83e4bbb40f5947d007652fc530d1b2e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_ng_action_83e4bbb40f5947d007652fc530d1b2e9">35857bf40f5947d007652fc530d1b21e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 18:24:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

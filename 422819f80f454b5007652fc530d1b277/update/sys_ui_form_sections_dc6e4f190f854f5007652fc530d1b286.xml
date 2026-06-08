@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dc6e4f190f854f5007652fc530d1b286" sys_domain="global" table="x_1902003_skillb_0_fifth_third_bank_loan" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>206e4f190f854f5007652fc530d1b28c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>646e4f190f854f5007652fc530d1b28d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">a75e0f190f854f5007652fc530d1b2cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d56e4f190f854f5007652fc530d1b2b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Branch Information" display_value="Branch Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">af5e0f190f854f5007652fc530d1b2cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e56e4f190f854f5007652fc530d1b2c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Obligor Details" display_value="Obligor Details" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">b75e0f190f854f5007652fc530d1b2cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a6e8f190f854f5007652fc530d1b282</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Documentation &amp; Verification" display_value="Documentation &amp; Verification" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">bf5e0f190f854f5007652fc530d1b2d0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c36ecf190f854f5007652fc530d1b22c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Employment Details" display_value="Employment Details" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">b75e0f190f854f5007652fc530d1b2d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb6ecf190f854f5007652fc530d1b234</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Approval Information" display_value="Approval Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">8c6e0f190f854f5007652fc530d1b2d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>447ecf190f854f5007652fc530d1b288</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Payment Information" display_value="Payment Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">086e4f190f854f5007652fc530d1b283</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac7ecf190f854f5007652fc530d1b2e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1902003_skillb_0_fifth_third_bank_loan" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">dc6e4f190f854f5007652fc530d1b286</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">006e4f190f854f5007652fc530d1b285</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc6e4f190f854f5007652fc530d1b286</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1902003_skillb_0_fifth_third_bank_loan</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dc6e4f190f854f5007652fc530d1b286</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="CRA Admin" name="CRA_Admin">fa5e0f190f854f5007652fc530d1b25d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

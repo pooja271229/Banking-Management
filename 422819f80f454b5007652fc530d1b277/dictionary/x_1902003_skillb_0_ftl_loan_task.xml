@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="f2c2d7110fc54f5007652fc530d1b262" extends="task" label="FTL Loan Task" max_length="40" name="x_1902003_skillb_0_ftl_loan_task" type="collection">
+        <element label="Loan Request" max_length="32" name="loan_request" reference="x_1902003_skillb_0_fifth_third_bank_loan" type="reference"/>
+        <element label="Task Issue" max_length="40" name="task_issue" type="string"/>
+        <element label="Short Description" max_length="40" name="short_descr" type="string"/>
+    </element>
+</database>

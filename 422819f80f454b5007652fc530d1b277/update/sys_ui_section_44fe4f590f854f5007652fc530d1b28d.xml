@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Documentation &amp; Verification" section_id="44fe4f590f854f5007652fc530d1b28d" sys_domain="global" table="x_1902003_skillb_0_fifth_third_bank_loan" version="3" view="customer">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pr_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:31:55</sys_created_on>
+            <sys_id>a40fcf590f854f5007652fc530d1b240</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Documentation &amp; Verification" display_value="Documentation &amp; Verification" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="f5c35460f50003100a22c0b3dfa151a2">44fe4f590f854f5007652fc530d1b28d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:31:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payslips_attached</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:31:56</sys_created_on>
+            <sys_id>600fcf590f854f5007652fc530d1b241</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Documentation &amp; Verification" display_value="Documentation &amp; Verification" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="f5c35460f50003100a22c0b3dfa151a2">44fe4f590f854f5007652fc530d1b28d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:31:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:31:56</sys_created_on>
+            <sys_id>3c0fcf590f854f5007652fc530d1b241</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Documentation &amp; Verification" display_value="Documentation &amp; Verification" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="f5c35460f50003100a22c0b3dfa151a2">44fe4f590f854f5007652fc530d1b28d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:31:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ssn_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:31:56</sys_created_on>
+            <sys_id>f40fcf590f854f5007652fc530d1b242</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Documentation &amp; Verification" display_value="Documentation &amp; Verification" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="f5c35460f50003100a22c0b3dfa151a2">44fe4f590f854f5007652fc530d1b28d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:31:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_statements_attached</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:31:57</sys_created_on>
+            <sys_id>b00fcf590f854f5007652fc530d1b243</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Documentation &amp; Verification" display_value="Documentation &amp; Verification" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="f5c35460f50003100a22c0b3dfa151a2">44fe4f590f854f5007652fc530d1b28d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:31:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Documentation &amp; Verification</caption>
+            <header>false</header>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:31:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44fe4f590f854f5007652fc530d1b28d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1902003_skillb_0_fifth_third_bank_loan</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+            <sys_update_name>sys_ui_section_44fe4f590f854f5007652fc530d1b28d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:31:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Customer" name="customer">f5c35460f50003100a22c0b3dfa151a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

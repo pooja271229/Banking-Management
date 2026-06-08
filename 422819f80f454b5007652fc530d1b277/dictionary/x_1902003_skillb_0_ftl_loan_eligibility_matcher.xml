@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,update_synch=true" db_object_id="630af9420f4d439007652fc530d1b212" extends="dl_matcher" label="FTL Loan Eligibility Matcher" max_length="40" name="x_1902003_skillb_0_ftl_loan_eligibility_matcher" type="collection">
+        <element choice="1" label="CIBIL Score" max_length="40" name="cibil_score" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="&lt;500" value="&lt;500"/>
+                <element inactive_on_update="false" label="&gt;750" value="&gt;750"/>
+                <element inactive_on_update="false" label="500-749" value="500-749"/>
+            </choice>
+        </element>
+        <element choice="1" label="Loan Status" max_length="40" name="loan_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Conditional" value="x_conditional"/>
+                <element inactive_on_update="false" label="Approved" value="x_approved"/>
+                <element inactive_on_update="false" label="Rejected" value="x_rejected"/>
+            </choice>
+        </element>
+        <element choice="1" label="Employment Type" max_length="40" name="employment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Self-employed" value="x_self-employed"/>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Government" value="x_government"/>
+                <element inactive_on_update="false" label="Private Sector" value="x_private_sector"/>
+            </choice>
+        </element>
+    </element>
+</database>
