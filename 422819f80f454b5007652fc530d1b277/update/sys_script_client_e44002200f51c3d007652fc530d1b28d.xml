@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>emi_amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate outstanding amount</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading)
+        return;
+
+    // Loan Amount Currency Field
+
+    var loanAmount = g_form.getValue('loan_amount');
+
+    if (loanAmount.indexOf(';') > -1)
+        loanAmount = loanAmount.split(';')[1];
+
+    loanAmount = parseFloat(
+        loanAmount.replace(/,/g, '')
+    ) || 0;
+
+    // EMI Currency Field
+
+    var emiAmount = g_form.getValue('emi_amount');
+
+    if (emiAmount.indexOf(';') > -1)
+        emiAmount = emiAmount.split(';')[1];
+
+    emiAmount = parseFloat(
+        emiAmount.replace(/,/g, '')
+    ) || 0;
+
+    // Total Paid Months
+
+    var paidMonths = parseInt(
+        g_form.getValue('total_paid_months'),
+        10
+    ) || 0;
+
+    // Outstanding Amount
+
+    var outstanding =
+        loanAmount - (emiAmount * paidMonths);
+
+    if (outstanding < 0)
+        outstanding = 0;
+
+    g_form.setValue(
+        'outstanding_amount',
+        'USD;' + outstanding.toFixed(2)
+
+
+    );
+	alert(
+    'Loan=' + loanAmount +
+    '\nEMI=' + emiAmount +
+    '\nMonths=' + paidMonths +
+    '\nOutstanding=' + outstanding
+);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 15:15:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e44002200f51c3d007652fc530d1b28d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate outstanding amount</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_update_name>sys_script_client_e44002200f51c3d007652fc530d1b28d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 18:46:51</sys_updated_on>
+        <table>x_1902003_skillb_0_fifth_third_bank_loan</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Loan Information" section_id="d35e0f190f854f5007652fc530d1b2ca" sys_domain="global" table="x_1902003_skillb_0_fifth_third_bank_loan" version="3" view="CRA_Admin">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>217e03590f854f5007652fc530d1b21d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_officer</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>f97e03590f854f5007652fc530d1b21d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interest_rate</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>b57e03590f854f5007652fc530d1b21e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>717e03590f854f5007652fc530d1b21f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>3d7e03590f854f5007652fc530d1b21f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>f57e03590f854f5007652fc530d1b220</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>b17e03590f854f5007652fc530d1b221</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>7d7e03590f854f5007652fc530d1b221</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_borrower</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>397e03590f854f5007652fc530d1b222</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_amount</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:33</sys_created_on>
+            <sys_id>b17e03590f854f5007652fc530d1b293</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_purpose</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:34</sys_created_on>
+            <sys_id>7d7e03590f854f5007652fc530d1b293</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maturity_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:34</sys_created_on>
+            <sys_id>0a7e03590f854f5007652fc530d1b294</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_stage</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:34</sys_created_on>
+            <sys_id>c27e03590f854f5007652fc530d1b295</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_status</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:34</sys_created_on>
+            <sys_id>8e7e03590f854f5007652fc530d1b295</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Information" display_value="Loan Information" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="fa5e0f190f854f5007652fc530d1b25d">d35e0f190f854f5007652fc530d1b2ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Loan Information</caption>
+            <header>false</header>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-23 18:29:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d35e0f190f854f5007652fc530d1b2ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1902003_skillb_0_fifth_third_bank_loan</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+            <sys_update_name>sys_ui_section_d35e0f190f854f5007652fc530d1b2ca</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-23 18:29:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="CRA Admin" name="CRA_Admin">fa5e0f190f854f5007652fc530d1b25d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

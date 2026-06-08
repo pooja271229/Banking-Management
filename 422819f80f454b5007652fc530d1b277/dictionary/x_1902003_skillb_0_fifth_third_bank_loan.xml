@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="36f9d9bc0f454b5007652fc530d1b256" label="Fifth Third Bank Loan" max_length="40" name="x_1902003_skillb_0_fifth_third_bank_loan" type="collection">
+        <element choice="1" label="Action Type" max_length="255" name="action_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="5" value="x_other"/>
+                <element inactive_on_update="false" label="Increase" sequence="3" value="x_increase"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="x_new"/>
+                <element inactive_on_update="false" label="Modification" sequence="2" value="x_modification"/>
+                <element inactive_on_update="false" label="Extension" sequence="4" value="x_extension"/>
+                <element inactive_on_update="false" label="Renewal" sequence="1" value="x_renewal"/>
+            </choice>
+        </element>
+        <element choice="1" label="Request State" max_length="255" name="request_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="x_draft"/>
+                <element inactive_on_update="false" label="Eligible" sequence="1" value="x_eligible"/>
+                <element inactive_on_update="false" label="Not Eligible" sequence="2" value="x_not_eligible"/>
+            </choice>
+        </element>
+        <element choice="1" label="Employment Type" max_length="255" name="employment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Private Sector" sequence="2" value="x_private_sector"/>
+                <element inactive_on_update="false" label="Government" sequence="0" value="x_government"/>
+                <element inactive_on_update="false" label="Self-employed" sequence="1" value="x_self-employed"/>
+            </choice>
+        </element>
+        <element label="PR Number" max_length="40" name="pr_number" type="string"/>
+        <element label="Annual Income" max_length="40" name="annual_income" type="string"/>
+        <element label="External Link" max_length="1024" name="external_link" type="url"/>
+        <element label="Loan Officer External ID" max_length="40" name="loan_officer_external_id" type="string"/>
+        <element label="Application Date " max_length="255" name="application_date" type="glide_date"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Full Closure" max_length="255" name="full_closure" type="boolean"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" label="Risk Rating" max_length="255" name="risk_rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Maturity Date" max_length="255" name="maturity_date" type="glide_date"/>
+        <element label="Company Name" max_length="40" name="company_name" type="string"/>
+        <element label="State" max_length="40" name="x_state" type="string"/>
+        <element label="Outstanding Amount" max_length="20" name="outstanding_amount" type="currency"/>
+        <element label="Office Phone" max_length="255" name="office_phone" type="phone_number_e164"/>
+        <element label="Comments" max_length="4000" name="x_comments" type="journal"/>
+        <element label="Loan Officer External Name" max_length="40" name="loan_officer_external_name" type="string"/>
+        <element label="Collateral Value" max_length="20" name="collateral_value" type="currency"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="CRA Comments" max_length="4000" name="cra_comments" type="journal"/>
+        <element label="Loan Officer" max_length="32" name="loan_officer" reference="sys_user" type="reference"/>
+        <element label="Total Paid Months" max_length="255" name="total_paid_months" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Contact Number" max_length="40" name="contact_number" type="string"/>
+        <element label="Loan Purpose " max_length="40" name="loan_purpose" type="string"/>
+        <element label="CRA Eligible" max_length="255" name="cra_eligible" type="boolean"/>
+        <element label="EMI Amount" max_length="20" name="emi_amount" type="currency"/>
+        <element label="SSN Number" max_length="40" name="ssn_number" type="string"/>
+        <element label="Office Location" max_length="40" name="office_location" type="string"/>
+        <element choice="1" label="Collateral Type" max_length="255" name="collateral_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accounts Receivable" sequence="3" value="x_accounts_receivable"/>
+                <element inactive_on_update="false" label="Equipment" sequence="1" value="x_equipment"/>
+                <element inactive_on_update="false" label="Real Estate" sequence="0" value="x_real_estate_equipment Inventory Accounts Receivable Other"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="x_other"/>
+                <element inactive_on_update="false" label="Inventory" sequence="2" value="x_inventory"/>
+            </choice>
+        </element>
+        <element label="Full Address" max_length="40" name="full_address" type="string"/>
+        <element choice="1" label="Loan Stage" max_length="255" name="loan_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Loan Approval &amp; Sanction" sequence="4" value=" x_loan_approval_sanction Loan"/>
+                <element inactive_on_update="false" label="Loan Servicing" sequence="6" value="x_loan_servicing"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="8" value="x_cancelled"/>
+                <element inactive_on_update="false" label="Loan Disbursement" sequence="5" value="x_loan_disbursement"/>
+                <element inactive_on_update="false" label="Loan inquiry" value="x_loan_inquiry"/>
+                <element inactive_on_update="false" label="Documentation Verification" sequence="2" value="x_documentation_verification"/>
+                <element inactive_on_update="false" label="Loan Underwriting" sequence="3" value="x_loan_underwriting"/>
+                <element inactive_on_update="false" label="Loan Closure" sequence="7" value="x_loan_closure"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Bank Statements Attached" max_length="255" name="bank_statements_attached" type="boolean"/>
+        <element choice="1" label="Loan Status" max_length="255" name="loan_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Conditional" sequence="2" value="x_conditional"/>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="x_approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="x_rejected"/>
+            </choice>
+        </element>
+        <element label="Obligor External Name" max_length="40" name="obligor_external_name" type="string"/>
+        <element label="Borrower" max_length="32" name="x_borrower" reference="sys_user" type="reference"/>
+        <element label="Approval Date" max_length="255" name="approval_date" type="glide_date_time"/>
+        <element label="Description" max_length="65536" name="description" type="html"/>
+        <element label="Approver name" max_length="32" name="approver_name" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Loan Amount " max_length="20" name="loan_amount" type="currency"/>
+        <element label="Branch" max_length="32" name="x_branch" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Approval Status" max_length="255" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Review" sequence="2" value="x_under_review"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="x_rejected"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="x_submitted"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="x_draft"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="x_approved"/>
+            </choice>
+        </element>
+        <element choice="1" label="Cibil Score" max_length="255" name="cibil_score" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="&gt;750" sequence="2" value="&gt;750"/>
+                <element inactive="true" inactive_on_update="true" label="750" sequence="0" value="x_750"/>
+                <element inactive_on_update="false" label="500–749" sequence="1" value=" x_500–749"/>
+                <element inactive_on_update="false" label="&lt;500" sequence="0" value="x_&lt;500"/>
+            </choice>
+        </element>
+        <element choice="1" label="Additional Info" max_length="255" name="additional_info" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Personal Information" sequence="5" value="x_personal_information"/>
+                <element inactive_on_update="false" label="Existing Liabilities" sequence="3" value="x_existing_liabilities"/>
+                <element inactive_on_update="false" label="Credit History Clarification" sequence="4" value="x_credit_history"/>
+                <element inactive_on_update="false" label="Awaiting Caller" sequence="0" value="x_awaiting_caller"/>
+                <element inactive_on_update="false" label="Income Documents" sequence="1" value=" x_income_documents"/>
+                <element inactive_on_update="false" label="Employment Details" sequence="2" value="x_employment_details"/>
+            </choice>
+        </element>
+        <element choice="1" label="Lien Position" max_length="255" name="lien_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="First" sequence="0" value="x_first"/>
+                <element inactive_on_update="false" label="Second" sequence="1" value="x_second"/>
+                <element inactive_on_update="false" label="Third" sequence="2" value="x_third"/>
+                <element inactive_on_update="false" label="Unsecured" sequence="3" value="x_unsecured"/>
+            </choice>
+        </element>
+        <element label="Obligor External ID" max_length="40" name="obligor_external_id" type="string"/>
+        <element choice="1" label="CRA Category" max_length="255" name="cra_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Community Development" sequence="2" value="x_community_development"/>
+                <element inactive_on_update="false" label="Small Farm" sequence="1" value="x_small_farm"/>
+                <element inactive_on_update="false" label="Small Business" sequence="0" value="x_small_business"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="x_other"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="Interest Rate " max_length="38" name="interest_rate" type="decimal"/>
+        <element label="Full Name" max_length="40" name="new_field_1" type="string"/>
+        <element label="Payslips Attached" max_length="255" name="payslips_attached" type="boolean"/>
+        <index name="index">
+            <element name="approver_name"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="loan_officer"/>
+        </index>
+        <index name="index5">
+            <element name="pr_number"/>
+        </index>
+        <index name="index6">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index7">
+            <element name="x_borrower"/>
+        </index>
+        <index name="index8">
+            <element name="x_branch"/>
+        </index>
+    </element>
+</database>

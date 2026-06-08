@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="employment_type" table="x_1902003_skillb_0_fifth_third_bank_loan" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>employment_type</element>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-21 21:55:50</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>employment_type</sys_name>
+            <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+            <sys_update_name>sys_choice_x_1902003_skillb_0_fifth_third_bank_loan_employment_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-21 21:55:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Government</label>
+            <language>en</language>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-21 21:55:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-21 21:55:50</sys_updated_on>
+            <value>x_government</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self-employed</label>
+            <language>en</language>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-21 21:55:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-21 21:55:51</sys_updated_on>
+            <value>x_self-employed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private Sector</label>
+            <language>en</language>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-21 21:55:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-21 21:55:51</sys_updated_on>
+            <value>x_private_sector</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1902003_skillb_0_ftl_loan_eligibility_matcher">
+    <x_1902003_skillb_0_ftl_loan_eligibility_matcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cibil_score>&gt;750</cibil_score>
+        <employment_type>x_government</employment_type>
+        <loan_status>x_approved</loan_status>
+        <order>100</order>
+        <sys_class_name>x_1902003_skillb_0_ftl_loan_eligibility_matcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 20:35:42</sys_created_on>
+        <sys_id>056e718a0f4d439007652fc530d1b2b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_update_name>x_1902003_skillb_0_ftl_loan_eligibility_matcher_056e718a0f4d439007652fc530d1b2b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 20:35:42</sys_updated_on>
+    </x_1902003_skillb_0_ftl_loan_eligibility_matcher>
+</record_update>

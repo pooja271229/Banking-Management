@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>loan_stage</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Loan Stage Removal</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading || !newValue)
+        return;
+
+    // Documentation Section
+
+    g_form.setSectionDisplay(
+        'documentation_verification',
+        newValue == 'x_documentation_verification'
+    );
+
+    // Payment Section
+
+    g_form.setSectionDisplay(
+        'payment_information',
+        newValue == 'x_loan_servicing'
+    );
+
+    // When entering Loan Servicing,
+    // remove backward stages permanently for this session
+
+    if (newValue == 'x_loan_servicing') {
+
+        g_form.removeOption(
+            'loan_stage',
+            'x_loan_inquiry'
+        );
+
+        g_form.removeOption(
+            'loan_stage',
+            'x_documentation_verification'
+        );
+
+        g_form.removeOption(
+            'loan_stage',
+            'x_loan_underwriting'
+        );
+
+        g_form.removeOption(
+            'loan_stage',
+            'x_loan_approval_sanction Loan'
+        );
+
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 14:14:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76d37d680fdd83d007652fc530d1b273</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loan Stage Removal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_update_name>sys_script_client_76d37d680fdd83d007652fc530d1b273</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 15:01:54</sys_updated_on>
+        <table>x_1902003_skillb_0_fifth_third_bank_loan</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

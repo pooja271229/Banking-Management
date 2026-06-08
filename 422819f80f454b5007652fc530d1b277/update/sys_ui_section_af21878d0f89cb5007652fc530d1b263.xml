@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="CRA &amp; Risk Assessment" section_id="af21878d0f89cb5007652fc530d1b263" sys_domain="global" table="x_1902003_skillb_0_fifth_third_bank_loan" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cra_eligible</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:45</sys_created_on>
+            <sys_id>0651cb8d0f89cb5007652fc530d1b22a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_rating</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:45</sys_created_on>
+            <sys_id>ce51cb8d0f89cb5007652fc530d1b22a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employment_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:45</sys_created_on>
+            <sys_id>8a51cb8d0f89cb5007652fc530d1b22b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collateral_value</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:45</sys_created_on>
+            <sys_id>5651cb8d0f89cb5007652fc530d1b22c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cra_comments</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:45</sys_created_on>
+            <sys_id>1251cb8d0f89cb5007652fc530d1b22d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:46</sys_created_on>
+            <sys_id>da51cb8d0f89cb5007652fc530d1b22d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cra_category</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:46</sys_created_on>
+            <sys_id>9651cb8d0f89cb5007652fc530d1b22e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cibil_score</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:46</sys_created_on>
+            <sys_id>5251cb8d0f89cb5007652fc530d1b22f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collateral_type</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:46</sys_created_on>
+            <sys_id>2e51cb8d0f89cb5007652fc530d1b22f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lien_position</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:47</sys_created_on>
+            <sys_id>e651cb8d0f89cb5007652fc530d1b230</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CRA &amp; Risk Assessment" display_value="CRA &amp; Risk Assessment" name="x_1902003_skillb_0_fifth_third_bank_loan" sys_domain="global" view="Default view">af21878d0f89cb5007652fc530d1b263</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>CRA &amp; Risk Assessment</caption>
+            <header>false</header>
+            <name>x_1902003_skillb_0_fifth_third_bank_loan</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-22 22:53:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af21878d0f89cb5007652fc530d1b263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1902003_skillb_0_fifth_third_bank_loan</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+            <sys_update_name>sys_ui_section_af21878d0f89cb5007652fc530d1b263</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-22 22:53:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

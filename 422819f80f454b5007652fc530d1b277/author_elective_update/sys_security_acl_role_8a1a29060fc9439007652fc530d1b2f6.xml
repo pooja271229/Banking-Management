@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:06:28</sys_created_on>
+        <sys_id>8a1a29060fc9439007652fc530d1b2f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1902003_skillb_0_ftl_loan_eligibility_matrix.x_1902003_skillb_0.ftl_loan_eligibility_matrix_user</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_security_acl display_value="x_1902003_skillb_0_ftl_loan_eligibility_matrix">e51a29060fc9439007652fc530d1b2f0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8a1a29060fc9439007652fc530d1b2f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:06:28</sys_updated_on>
+        <sys_user_role display_value="x_1902003_skillb_0.ftl_loan_eligibility_matrix_user" name="x_1902003_skillb_0.ftl_loan_eligibility_matrix_user">c2f96dc20fc9439007652fc530d1b2d2</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</application>
+        <file_path/>
+        <instance_id>bbd3a8b63bdc0b10986d048aa4e45af2</instance_id>
+        <instance_name>dev386461</instance_name>
+        <name>sys_security_acl_role_8a1a29060fc9439007652fc530d1b2f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-25 19:06:28</sys_created_on><sys_id>8a1a29060fc9439007652fc530d1b2f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1902003_skillb_0_ftl_loan_eligibility_matrix.x_1902003_skillb_0.ftl_loan_eligibility_matrix_user</sys_name><sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package><sys_policy/><sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope><sys_security_acl display_value="x_1902003_skillb_0_ftl_loan_eligibility_matrix">e51a29060fc9439007652fc530d1b2f0</sys_security_acl><sys_update_name>sys_security_acl_role_8a1a29060fc9439007652fc530d1b2f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-25 19:06:28</sys_updated_on><sys_user_role display_value="x_1902003_skillb_0.ftl_loan_eligibility_matrix_user" name="x_1902003_skillb_0.ftl_loan_eligibility_matrix_user">c2f96dc20fc9439007652fc530d1b2d2</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>577177305</payload_hash>
+        <record_name>x_1902003_skillb_0_ftl_loan_eligibility_matrix.x_1902003_skillb_0.ftl_loan_eligibility_matrix_user</record_name>
+        <reverted_from/>
+        <source>9a2819f80f454b5007652fc530d1b2ef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 19:06:31</sys_created_on>
+        <sys_id>f21a69060fc9439007652fc530d1b27c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e608812a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 19:06:31</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a21a6906fec943906763f0506942e97b</update_guid>
+        <update_guid_history>a21a6906fec943906763f0506942e97b:577177305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1902003_skillb_0_ftl_loan_eligibility_matrix.x_1902003_skillb_0.ftl_loan_eligi">ef69f5020f4d439007652fc530d1b2c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-25 20:13:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3ee2f03a83924e48bb73a23409b6a390</sys_id>
+        <sys_metadata>8a1a29060fc9439007652fc530d1b2f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1902003_skillb_0_ftl_loan_eligibility_matrix.x_1902003_skillb_0.ftl_loan_eligibility_matrix_user</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_parent display_value="">e51a29060fc9439007652fc530d1b2f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_scope_delete display_value="">dc4d112fe82641ebae754a82b459f231</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8a1a29060fc9439007652fc530d1b2f6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8a1a29060fc9439007652fc530d1b2f6">f21a69060fc9439007652fc530d1b27c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-25 20:13:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

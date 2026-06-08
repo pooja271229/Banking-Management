@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>loan_stage</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Documentation Section Visibility</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    // INITIAL CHECK ON FORM LOAD
+
+    toggleDocumentationSection();
+
+    // RUN AGAIN WHEN LOAN STAGE CHANGES
+
+    g_form.getControl('loan_stage').onchange = function() {
+
+        toggleDocumentationSection();
+
+    };
+
+}
+
+// COMMON FUNCTION
+
+function toggleDocumentationSection() {
+
+    var stage = g_form.getValue('loan_stage');
+
+    if (stage == 'x_documentation_verification') {
+
+        g_form.setSectionDisplay(
+            'documentation_verification',
+            true
+        );
+
+    } else {
+
+        g_form.setSectionDisplay(
+            'documentation_verification',
+            false
+        );
+
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 18:57:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b98a6e1a0f0dc39007652fc530d1b299</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Documentation Section Visibility</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_update_name>sys_script_client_b98a6e1a0f0dc39007652fc530d1b299</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 08:39:55</sys_updated_on>
+        <table>x_1902003_skillb_0_fifth_third_bank_loan</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</application>
+        <file_path/>
+        <instance_id>bbd3a8b63bdc0b10986d048aa4e45af2</instance_id>
+        <instance_name>dev386461</instance_name>
+        <name>sys_script_client_b98a6e1a0f0dc39007652fc530d1b299</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;loan_stage&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Documentation Section Visibility&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    // INITIAL CHECK ON FORM LOAD
+
+    toggleDocumentationSection();
+
+    // RUN AGAIN WHEN LOAN STAGE CHANGES
+
+    g_form.getControl('loan_stage').onchange = function() {
+
+        toggleDocumentationSection();
+
+    };
+
+}
+
+// COMMON FUNCTION
+
+function toggleDocumentationSection() {
+
+    var stage = g_form.getValue('loan_stage');
+
+    if (stage == 'x_documentation_verification') {
+
+        g_form.setSectionDisplay(
+            'documentation_verification',
+            true
+        );
+
+    } else {
+
+        g_form.setSectionDisplay(
+            'documentation_verification',
+            false
+        );
+
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-26 18:57:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b98a6e1a0f0dc39007652fc530d1b299&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Documentation Section Visibility&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0"&gt;422819f80f454b5007652fc530d1b277&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SkillBridge Bank "&gt;422819f80f454b5007652fc530d1b277&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b98a6e1a0f0dc39007652fc530d1b299&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-28 08:39:55&lt;/sys_updated_on&gt;&lt;table&gt;x_1902003_skillb_0_fifth_third_bank_loan&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2081074</payload_hash>
+        <record_name>Documentation Section Visibility</record_name>
+        <reverted_from/>
+        <source>9a2819f80f454b5007652fc530d1b2ef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-28 08:39:56</sys_created_on>
+        <sys_id>e57776be0f85c79007652fc530d1b2cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e6dbd82e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-28 08:39:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a17776be3085c79052a57145417597cb</update_guid>
+        <update_guid_history>a17776be3085c79052a57145417597cb:-2081074,19e5feda564dc3903933010af0e39321:1440355081,1b62b252914dc390b0ada642c0536e60:497058409,ab81ba16864dc390504fd1b407c2ab95:679012483</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 14:10:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>ab1a5a57bc8b43ac8f688f5a6a6dc1c9</sys_id>
+        <sys_metadata>b98a6e1a0f0dc39007652fc530d1b299</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Documentation Section Visibility</sys_name>
+        <sys_package display_value="SkillBridge Bank " source="x_1902003_skillb_0">422819f80f454b5007652fc530d1b277</sys_package>
+        <sys_parent display_value="Fifth Third Bank Loan">36f9d9bc0f454b5007652fc530d1b256</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SkillBridge Bank ">422819f80f454b5007652fc530d1b277</sys_scope>
+        <sys_scope_delete display_value="">dc4d112fe82641ebae754a82b459f231</sys_scope_delete>
+        <sys_update_name>sys_script_client_b98a6e1a0f0dc39007652fc530d1b299</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b98a6e1a0f0dc39007652fc530d1b299">e57776be0f85c79007652fc530d1b2cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 14:10:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
